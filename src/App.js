@@ -8,6 +8,8 @@ import Cart from "./common/Cart/Cart"
 import Footer from "./common/footer/Footer"
 import Sdata from "./components/shops/Sdata"
 import Auth from "./common/sign/Auth"
+import ContactForm from "./common/Contact/ContactForm"
+
 function App() {
 
   const { productItems } = Data
@@ -53,6 +55,9 @@ function App() {
           </Route>
           <Route path="/auth" element={<Auth />}>
             <Auth/>
+            </Route> 
+            <Route path="/contact" >
+            <ContactForm/>
             </Route> 
           
         </Switch>

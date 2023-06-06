@@ -10,6 +10,10 @@
     height: 100vh;
   }
   
+  .Centerd {
+    margin-top: 1em;
+    margin-bottom: 1em;
+  }
   .Auth-form {
     width: 420px;
     box-shadow: rgb(0 0 0 / 16%) 1px 1px 10px;

@@ -1,0 +1,39 @@
+.App {
+    background-color: white;
+    align-items: center;
+  }
+
+  
+  .Message {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    width: 1vw;
+    height: 12vh;
+  }
+  
+  .Auth-form {
+    width: 420px;
+    box-shadow: rgb(0 0 0 / 16%) 1px 1px 10px;
+    padding-top: 30px;
+    padding-bottom: 40px;
+    border-radius: 8px;
+    background-color: white;
+  }
+  
+  .Button {
+
+    margin-bottom: 5em;
+  }
+  
+
+  
+  .label {
+    
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(32, 5, 188);
+    margin-top: 2em;
+    margin-bottom: 2em;
+    
+  }
